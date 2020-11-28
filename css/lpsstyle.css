@@ -1,0 +1,54 @@
+.header {
+  height: 70px;
+  background: #000;
+  justify-content: space-between;
+  display: flex;
+}
+.header-logo {
+  font-size: 20px;
+  font-weight: bold; /*太字*/
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+.header-nav li {
+  display: flex;
+  margin-right: 25px; /*外余白*/
+  font-size: 16px;
+}
+.header-nav a {
+  color: #f2f2f2;
+  text-align: none;
+}
+footer {
+  height: 70px;
+  background: #000000;
+}
+#eyecatch {
+  height: 600px;
+  background: url(/img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+
+.right p {
+  background: url(/img/company.jpeg);
+  width: 45%;
+}
+.left p {
+  background: url(/img/recruit.jpg);
+  width: 45%;
+}

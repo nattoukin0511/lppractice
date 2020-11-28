@@ -1,0 +1,121 @@
+.link {
+  font-size: 12px; /* 文字のサイズ　*/
+  color: #0051e0; /* 文字の色　*/
+  text-decoration: underline; /* 文字に下線を加える　*/
+  cursor: pointer; /* この要素(クラスlink)に触れたときカーソルの表示が変化する　*/
+}
+
+.link:hover /* この要素(クラスlink)に触れたとき　*/ {
+  text-decoration: none; /* 下線が消える　*/
+}
+.link {
+  padding: 5px 20px; /* 上下に5px、左右に20px */
+  font-size: 14px;
+  color: #d7ba7b;
+  text-decoration: none; /* テキストのスタイルを消す */
+  cursor: pointer;
+  border: 1px #d7ba7b solid; /* 境界線を引く */
+  border-radius: 3px; /* 要素の角を丸くする */
+  transition: 0.4s ease; /* スタイルが変化する時間 */
+}
+
+.link:hover {
+  color: #fff;
+  background: #d7ba7b;
+}
+.list {
+  width: 200px; /* 幅200px */
+  padding: 10px 30px; /* 上下10px　左右30px */
+  color: #333;
+  background: #fbfbf6; /* 背景クリーム色 */
+  border: solid 3px gray;
+  border-radius: 10px;
+}
+
+.list li {
+  padding: 10px 0;
+  line-height: 1.5em; /* １行の文字の高さfont-sizeの1.5倍 */
+}
+
+.header {
+  display: flex; /* 直下の子要素（p、nav）を横並びにする */
+  justify-content: space-between; /* 横並びにした要素を両端に寄せ、等間隔にする */
+  align-items: center; /* 横並びにした要素を上下中央に揃える */
+  background: #eee;
+  width: 50%;
+  height: 60px;
+  padding: 0 30px;
+  margin: 0 auto; /* 残りの余白（50%）を両端に均等に分ける */
+  font-size: 20px;
+}
+
+.header-nav-list {
+  display: flex; /* aタグはinline要素のためliタグが横並びになる */
+}
+
+.header-nav-list a {
+  text-decoration: none; /* テキストの装飾をなくす */
+}
+
+.header-nav-item {
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold; /* 文字の太さを変更 */
+  color: #ccc;
+  text-align: center; /* 文字位置を真ん中にする */
+  list-style: none; /* リストを作った際の「・」が消える */
+}
+
+.input {
+  width: 100%;
+  height: 27px;
+  font-size: 16px;
+  border: none; /* inputタグはデフォルトでborderスタイルが当てられているため、一度スタイルをリセットするために加えます */
+  border-bottom: 1px solid #ccc;
+}
+
+.menu,
+.menu span {
+  display: inline-block; /* spanタグはinline要素なのでblock要素を加える */
+}
+
+.menu {
+  position: relative; /* 子要素の位置の基準を決める */
+  width: 30px;
+  height: 26px;
+}
+
+.menu span {
+  position: absolute; /* 親要素（.menu）の位置にしたがって上下左右位置指定 */
+  left: 0; /* 左から0px */
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.menu span:nth-of-type(1) {
+  top: 0; /* relativeを当てた要素の上から0px */
+}
+
+.menu span:nth-of-type(2) {
+  top: 10px; /* relativeを当てた要素の上から10px */
+}
+
+.menu span:nth-of-type(3) {
+  top: 20px; /* relativeを当てた要素の上から20px */
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  background: black;
+  color: white;
+}
