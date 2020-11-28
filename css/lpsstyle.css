@@ -26,7 +26,7 @@ footer {
 }
 #eyecatch {
   height: 600px;
-  background: url(/img/eyecatch.jpg) no-repeat;
+  background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -45,10 +45,10 @@ footer {
 }
 
 .right p {
-  background: url(/img/company.jpeg);
+  background: url(../img/company.jpeg);
   width: 45%;
 }
 .left p {
-  background: url(/img/recruit.jpg);
+  background: url(../img/recruit.jpg);
   width: 45%;
 }
