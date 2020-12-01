@@ -52,3 +52,30 @@ footer {
   background: url(../img/recruit.jpg);
   width: 45%;
 }
+.card {
+  width: 300px;
+  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.title,
+.text {
+  margin: 0;
+}
+
+.text {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.link {
+  display: block; /*aタグはinline要素なのでblock要素にしてwidthを持たせます */
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #d7b071;
+  cursor: pointer; /* カーソルの表示を変更します */
+}
