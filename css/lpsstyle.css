@@ -79,3 +79,22 @@ footer {
   color: #d7b071;
   cursor: pointer; /* カーソルの表示を変更します */
 }
+.sect1 {
+  background: url(../img/company.jpeg) no-repeat;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  width: 45%;
+  display: flex;
+}
+
+.sect2 {
+  background: url(../img/recruit.jpg) no-repeat;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  width: 45%;
+  display: flex;
+}
+
+.mission {
+  position: relative;
+}
