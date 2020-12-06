@@ -98,3 +98,20 @@ footer {
 .mission {
   position: relative;
 }
+.mission img {
+  position: relative;
+  display: flex;
+  width: 400px;
+}
+
+.faq {
+  width: 600px;
+  height: 30%;
+  background: black;
+  color: #fff;
+}
+.contact {
+  background: url(../img/contact-bg.jpg) no-repeat;
+  width: auto;
+  justify-content: center;
+}
