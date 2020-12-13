@@ -130,7 +130,6 @@ footer {
 }
 .imgg,
 .img2 {
-  position: absolute;
   display: flex;
   width: 400px;
 }
