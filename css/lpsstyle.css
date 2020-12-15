@@ -127,6 +127,8 @@ footer {
 .imgm {
   position: relative;
   height:30%;
+  top:10px;
+  bottom:40px;
 }
 .imgg {
   display: flex;
