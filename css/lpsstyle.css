@@ -89,6 +89,9 @@ footer {
   cursor: pointer; /* カーソルの表示を変更します */
 }
 .sect1 {
+  display: inline-block;
+  text-align: center;
+  height: 45%; 
   background: url(../img/company.jpeg) no-repeat;
   color: #fff;
   padding: 10px 20px 10px 20px;
@@ -97,6 +100,9 @@ footer {
 }
 
 .sect2 {
+  display: inline-block;
+  text-align: center;
+  height: 45%;
   background: url(../img/recruit.jpg) no-repeat;
   color: #fff;
   padding: 10px 20px 10px 20px;
