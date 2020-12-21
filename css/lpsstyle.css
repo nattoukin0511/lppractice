@@ -3,6 +3,7 @@
   background: #000;
   justify-content: space-between;
   display: flex;
+  line-height: 20px;
 }
 .header-logo {
   font-size: 20px;
@@ -21,8 +22,8 @@
   text-align: none;
 }
 .header-nav ul {
-  display:flex;
-  height:80px;
+  display: flex;
+  height: 80px;
 }
 .flex-between {
   display: flex;
@@ -52,7 +53,28 @@ footer {
   color: #ccc;
   line-height: 1;
 }
-
+.news {
+  display: flex;
+  width: 200px;
+  margin-left: auto;
+}
+.companyarea {
+  width: 400px;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.corporate {
+  width: 400px;
+  position: relative;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  padding: 10px;
+  color: #000;
+}
 .right p {
   background: url(../img/company.jpeg);
   width: 45%;
@@ -68,6 +90,7 @@ footer {
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
   transition: 0.3s;
+  position: relative;
 }
 
 .title,
@@ -88,17 +111,57 @@ footer {
   color: #d7b071;
   cursor: pointer; /* カーソルの表示を変更します */
 }
+
+.mission {
+  position: relative;
+}
+
+.mission img {
+  position: relative;
+  display: flex;
+  width: 400px;
+}
+
+.faq {
+  width: 60%;
+  height: 30%;
+  background: black;
+  color: #fff;
+  text-align: center;
+}
+.contact {
+  background: url(../img/contact-bg.jpg) no-repeat;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  height: 40%;
+}
+.imgm {
+  position: relative;
+  height: 30%;
+}
+.imgg {
+  display: flex;
+  width: 400px;
+  margin-left: auto;
+  bottom: 140px;
+}
+
+.img2 {
+  display: flex;
+  width: 400px;
+  margin-left: auto;
+  margin-bottom: 140px;
+}
 .sect1 {
   display: inline-block;
   text-align: center;
-  height: 45%; 
+  height: 45%;
   background: url(../img/company.jpeg) no-repeat;
   color: #fff;
   padding: 10px 20px 10px 20px;
   width: 45%;
-  display: flex;
 }
-
 .sect2 {
   display: inline-block;
   text-align: center;
@@ -107,47 +170,10 @@ footer {
   color: #fff;
   padding: 10px 20px 10px 20px;
   width: 45%;
-  display: flex;
 }
-
-.mission {
-  position: relative;
-}
-.mission img {
-  position: relative;
-  display: flex;
-  width: 400px;
-}
-
-.faq {
-  width: 600px;
-  height: 30%;
-  background: black;
-  color: #fff;
-}
-.contact {
-  background: url(../img/contact-bg.jpg) no-repeat;
-  width: auto;
-  justify-content: center;
-}
-.imgm {
-  position: relative;
-  height:30%;
-  top:10px;
-  bottom:40px;
-}
-.imgg {
-  display: flex;
-  width: 400px;
-  margin: 100px 240px 240px 100px;
-}
-
-.img2 {
-  display: flex;
-  width: 30%;
-  margin: 100px 100px;
-  height: 20%;
-}
-.company {
+.service {
+  color: #666666;
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
