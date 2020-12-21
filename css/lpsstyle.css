@@ -128,6 +128,7 @@ footer {
   background: black;
   color: #fff;
   text-align: center;
+  margin-bottom:140px;
 }
 .contact {
   background: url(../img/contact-bg.jpg) no-repeat;
@@ -161,6 +162,7 @@ footer {
   color: #fff;
   padding: 10px 20px 10px 20px;
   width: 45%;
+  margin-bottom:140px;
 }
 .sect2 {
   display: inline-block;
@@ -170,6 +172,7 @@ footer {
   color: #fff;
   padding: 10px 20px 10px 20px;
   width: 45%;
+  margin-bottom:140px;
 }
 .service {
   color: #666666;
