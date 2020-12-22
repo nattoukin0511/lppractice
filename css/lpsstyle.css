@@ -35,14 +35,14 @@ footer {
   background: #000000;
 }
 #eyecatch {
-  height: 600px;
+  height: 400px;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-#eyecatch p {
+#eyecatch h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,26 +54,62 @@ footer {
   line-height: 1;
 }
 .news {
+  width:40%;
+  height:50px;
   display: flex;
-  width: 200px;
-  margin-left: auto;
+  justify-content:space-between;
+  background:#fff;
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.news-text-wrap {	
+  width: 100%;	
+padding-left: 10px;	
+vertical-align: middle;	margin-left: auto;
+}	
+.news-box {	
+line-height: 50px;	
+color: #fff;	
+background: #000;	
+padding: 0 20px;	
 }
 .companyarea {
-  width: 400px;
+  width: 100%;
   background: #000;
   margin-left: auto;
   margin-right: auto;
 }
 .corporate {
-  width: 400px;
+  width: 700px;
   position: relative;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
 }
-.button {
-  padding: 10px;
-  color: #000;
+.button-area {	
+width: 40%;	padding: 10px;
+height: 30px;	
+display: flex;	
+justify-content: space-between;	
+background: #fff;	
+}	
+.button {	
+line-height: 30px;	
+  padding: 0 20px;	
+color: #000;	
+background: #fff;	
+}	
+.corporate h2 {	
+position: absolute;	
+top: 50%;	
+left: 50%;	
+transform: translate(-50%, -50%);	
+font-size: 30px;	
+font-style: italic;	
+font-weight: bold;	
+color: #ccc;	
+line-height: 1;	
 }
 .right p {
   background: url(../img/company.jpeg);
