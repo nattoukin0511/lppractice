@@ -5,19 +5,22 @@
   display: flex;
   line-height: 20px;
 }
-.header-logo {
+.header-logo,
+.footer-logo {
   font-size: 20px;
   font-weight: bold; /*太字*/
   margin-left: 35px;
   color: #f2f2f2;
   line-height: 70px;
 }
-.header-nav li {
+.header-nav li,
+.footer-nav li {
   display: flex;
-  margin-right: 25px; /*外余白*/
+  margin-right: 35px; /*外余白*/
   font-size: 16px;
 }
-.header-nav a {
+.header-nav a,
+.footer-nav a {
   color: #f2f2f2;
   text-align: none;
 }
@@ -25,14 +28,18 @@
   display: flex;
   height: 80px;
 }
-.flex-between {
+.flex-between,
+.flex-between2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 footer {
   height: 70px;
-  background: #000000;
+  background: #000;
+  justify-content: space-between;
+  display: flex;
+  line-height: 20px;
 }
 #eyecatch {
   height: 400px;
@@ -54,25 +61,26 @@ footer {
   line-height: 1;
 }
 .news {
-  width:40%;
-  height:50px;
+  width: 40%;
+  height: 50px;
   display: flex;
-  justify-content:space-between;
-  background:#fff;
-  position:absolute;
-  right:0;
-  bottom:0;
+  justify-content: space-between;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
-.news-text-wrap {	
-  width: 100%;	
-padding-left: 10px;	
-vertical-align: middle;	margin-left: auto;
-}	
-.news-box {	
-line-height: 50px;	
-color: #fff;	
-background: #000;	
-padding: 0 20px;	
+.news-text-wrap {
+  width: 100%;
+  padding-left: 10px;
+  vertical-align: middle;
+  margin-left: auto;
+}
+.news-box {
+  line-height: 50px;
+  color: #fff;
+  background: #000;
+  padding: 0 20px;
 }
 .company {
   display: flex;
@@ -80,7 +88,6 @@ padding: 0 20px;
   text-align: center;
   align-items: center;
 }
-
 .companyarea {
   width: 100%;
   background: #000;
@@ -94,29 +101,30 @@ padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
 }
-.button-area {	
-width: 40%;	padding: 10px;
-height: 30px;	
-display: flex;	
-justify-content: space-between;	
-background: #fff;	
-}	
-.button {	
-line-height: 30px;	
-  padding: 0 20px;	
-color: #000;	
-background: #fff;	
-}	
-.corporate h2 {	
-position: absolute;	
-top: 50%;	
-left: 50%;	
-transform: translate(-50%, -50%);	
-font-size: 30px;	
-font-style: italic;	
-font-weight: bold;	
-color: #ccc;	
-line-height: 1;	
+.button-area {
+  width: 40%;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.button {
+  line-height: 30px;
+  padding: 0 20px;
+  color: #000;
+  background: #fff;
+}
+.corporate h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
 }
 .right p {
   background: url(../img/company.jpeg);
@@ -171,15 +179,15 @@ line-height: 1;
   background: black;
   color: #fff;
   text-align: center;
-  margin-bottom:140px;
-  margin-left:250px;
+  padding: 60px 10px 20px 30px;
+  margin-bottom: 140px;
+  margin-left: 250px;
 }
 .contact {
   background: url(../img/contact-bg.jpg) no-repeat;
-  width: 100%;
+  width: 80px;
   justify-content: center;
   text-align: center;
-  height: 40%;
 }
 .imgm {
   position: relative;
@@ -198,8 +206,6 @@ line-height: 1;
   margin-right: auto;
   margin-bottom: 140px;
 }
-
-
 .company-wrap1 {
   width: 40%;
   background: url(../img/company.jpeg) no-repeat;
