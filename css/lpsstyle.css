@@ -274,8 +274,11 @@ label {
 .contact {
   background: url(../img/contact-bg.jpg) no-repeat;
   width: 100%;
+  height:400px;
   justify-content: center;
   text-align: center;
+  align-items:center;
+  color:#ccc;
 }
 
 footer {
