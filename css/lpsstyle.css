@@ -5,6 +5,14 @@
   display: flex;
   line-height: 20px;
 }
+
+.flex-between
+ {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .header-logo
  {
   font-size: 20px;
@@ -14,12 +22,7 @@
   line-height: 70px;
 }
 
-.flex-between
- {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+
 header-nav ul {/*ここで横並び*/
   display: flex;
   height: 80px;
