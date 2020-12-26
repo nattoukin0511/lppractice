@@ -131,7 +131,12 @@ header-nav ul {/*ここで横並び*/
   background: url(../img/recruit.jpg);
   width: 45%;
 }
-.card {
+
+.service-item1 {
+  display: flex;
+}
+
+.card1 {
   width: 300px;
   padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
   color: #333;
@@ -139,9 +144,27 @@ header-nav ul {/*ここで横並び*/
   border-radius: 3px;
   transition: 0.3s;
   position: relative;
-  z-index:80px;
+  z-index: 70px;
+  left: 10;
+  top: 0;
 }
 
+.service-item2 {
+  display: flex;
+}
+
+.card2 {
+  width: 300px;
+  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+  position: relative;
+  z-index: 70px;
+  left: 10;
+  top: 0;
+}
 .title,
 .text {
   margin: 0;
