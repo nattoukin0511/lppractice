@@ -139,6 +139,7 @@ header-nav ul {/*ここで横並び*/
   border-radius: 3px;
   transition: 0.3s;
   position: relative;
+  z-index:80px;
 }
 
 .title,
@@ -187,6 +188,7 @@ header-nav ul {/*ここで横並び*/
   width: 400px;
   margin-right: auto;
   margin-bottom: 140px;
+  z-index:30px;
 }
 
 
@@ -248,7 +250,7 @@ label {
 
 .contact {
   background: url(../img/contact-bg.jpg) no-repeat;
-  width: 80px;
+  width: 100%;
   justify-content: center;
   text-align: center;
 }
