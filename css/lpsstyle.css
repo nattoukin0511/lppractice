@@ -5,42 +5,41 @@
   display: flex;
   line-height: 20px;
 }
-.header-logo,
-.footer-logo {
+.header-logo
+ {
   font-size: 20px;
   font-weight: bold; /*太字*/
   margin-left: 35px;
   color: #f2f2f2;
   line-height: 70px;
 }
-.header-nav li,
-.footer-nav li {
-  display: flex;
-  margin-right: 35px; /*外余白*/
-  font-size: 16px;
-}
-.header-nav a,
-.footer-nav a {
-  color: #f2f2f2;
-  text-align: none;
-}
-.header-nav ul {
-  display: flex;
-  height: 80px;
-}
-.flex-between,
-.flex-between2 {
+
+.flex-between
+ {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-footer {
-  height: 70px;
-  background: #000;
-  justify-content: space-between;
+header-nav ul {/*ここで横並び*/
   display: flex;
-  line-height: 20px;
+  height: 80px;
 }
+
+.header-nav a
+ {
+  color: #f2f2f2;
+  text-align: none;
+}
+
+.header-nav li
+ {
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold; /* 文字の太さを変更 */
+  color: #ccc;
+  list-style: none;
+}
+
 #eyecatch {
   height: 400px;
   background: url(../img/eyecatch.jpg) no-repeat;
@@ -82,12 +81,7 @@ footer {
   background: #000;
   padding: 0 20px;
 }
-.company {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-}
+
 .companyarea {
   width: 100%;
   background: #000;
@@ -173,22 +167,7 @@ footer {
   width: 400px;
 }
 
-.faq {
-  width: 60%;
-  height: 30%;
-  background: black;
-  color: #fff;
-  text-align: center;
-  padding: 60px 10px 20px 30px;
-  margin-bottom: 140px;
-  margin-left: 250px;
-}
-.contact {
-  background: url(../img/contact-bg.jpg) no-repeat;
-  width: 80px;
-  justify-content: center;
-  text-align: center;
-}
+
 .imgm {
   position: relative;
   height: 30%;
@@ -206,6 +185,22 @@ footer {
   margin-right: auto;
   margin-bottom: 140px;
 }
+
+
+.service {
+  color: #666666;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
 .company-wrap1 {
   width: 40%;
   background: url(../img/company.jpeg) no-repeat;
@@ -230,9 +225,68 @@ footer {
   color: #ccc;
 }
 
-.service {
-  color: #666666;
-  text-align: center;
+label {
+  font-size: 24px;
   font-weight: bold;
-  font-size: 20px;
+  float: left;
+  color: #ccc;
 }
+
+.faq {
+  width: 60%;
+  height: 30%;
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 60px 10px 20px 30px;
+  margin-bottom: 140px;
+  margin-left: 250px;
+}
+
+.contact {
+  background: url(../img/contact-bg.jpg) no-repeat;
+  width: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  height: 70px;
+  background: #000;
+  justify-content: space-between;
+  display: flex;
+  line-height: 20px;
+}
+
+.flex-between2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold; /*太字*/
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.footer-nav ul {/*横並び*/
+  display: flex;
+  height: 80px;
+}
+
+.footer-nav a {
+  color: #f2f2f2;
+  text-align: none;
+}
+
+.footer-nav li {
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold; /* 文字の太さを変更 */
+  color: #ccc;
+  list-style: none;
+}
+
