@@ -144,9 +144,8 @@ header-nav ul {/*ここで横並び*/
   border-radius: 3px;
   transition: 0.3s;
   position: relative;
-  z-index: 70px;
-  left: 10;
-  top: 0;
+  left: 535px;
+  top: 200px;
 }
 
 .service-item2 {
@@ -161,9 +160,8 @@ header-nav ul {/*ここで横並び*/
   border-radius: 3px;
   transition: 0.3s;
   position: relative;
-  z-index: 70px;
-  left: 10;
-  top: 0;
+  left: 360px;
+  bottom: 330px;
 }
 .title,
 .text {
