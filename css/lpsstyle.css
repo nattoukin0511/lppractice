@@ -86,10 +86,14 @@ header-nav ul {/*ここで横並び*/
 }
 
 .corporate h2 {
-margin-bottom: 50px;
+ margin-bottom: 40px;
+  margin-left: 280px;
+  padding-top: 30px;
+  font-size: 30px;
+  color: #ccc;
 }
 .corporate p {
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
 
 .companyarea {
