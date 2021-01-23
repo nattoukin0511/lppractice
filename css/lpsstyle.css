@@ -266,6 +266,8 @@ margin-bottom: 30px;
 }
 
 .faq {
+  display:flexbox;
+  justify-content:center-between;
   width: 60%;
   height: 30%;
   background: black;
