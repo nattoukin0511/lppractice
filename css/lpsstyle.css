@@ -296,6 +296,14 @@ margin-bottom: 30px;
   background-size: cover;
 }
 
+.faqh3 {
+  padding-bottom: 30px;
+}
+.faqsm3 {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
 footer {
   height: 70px;
   background: #000;
