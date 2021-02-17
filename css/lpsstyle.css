@@ -23,7 +23,7 @@
 }
 
 
-header-nav ul {/*ここで横並び*/
+.header-nav ul {/*ここで横並び*/
   display: flex;
   height: 80px;
 }
@@ -102,6 +102,10 @@ margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
+.companyarea h2 {
+z-index:3;
+}
+
 .corporate {
   width: 700px;
   position: relative;
@@ -203,6 +207,7 @@ margin-bottom: 30px;
   position: relative;
   display: flex;
   width: 400px;
+  left:300px;
 }
 
 
