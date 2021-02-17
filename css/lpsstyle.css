@@ -207,7 +207,9 @@ z-index:3;
   position: relative;
   display: flex;
   width: 400px;
-  left:300px;
+  left: 650px;
+  bottom: 110px;
+  z-index: auto;
 }
 
 
