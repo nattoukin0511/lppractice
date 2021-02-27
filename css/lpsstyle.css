@@ -220,7 +220,7 @@ z-index:3;
 }
 .imgg {
   display: flex;
-  width: 400px;
+  width: 40%;
   margin-left: auto;
   bottom: 140px;
   right: 10px;
@@ -228,7 +228,7 @@ z-index:3;
 
 .img2 {
   display: flex;
-  width: 400px;
+  width: 40%;
   margin-right: auto;
   margin-bottom: 140px;
   z-index:30;
