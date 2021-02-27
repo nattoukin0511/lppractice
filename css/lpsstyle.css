@@ -25,7 +25,7 @@
 
 .header-nav ul {/*ここで横並び*/
   display: flex;
-  height: 80px;
+  height: 70px;
 }
 
 .header-nav a
@@ -306,13 +306,19 @@ label {
   background-size: cover;
 }
 
+..faqp {
+  font-size: 16px;
+  padding-bottom: 52px;
+}
 .faqh3 {
-  padding-bottom: 30px;
+  font-size: 28px;
+  padding-bottom: 18px;
 }
 .faqsm3 {
-  font-size: 18px;
+  font-size: 11px;
   padding-bottom: 30px;
 }
+
 
 footer {
   height: 70px;
