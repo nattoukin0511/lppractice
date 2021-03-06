@@ -104,6 +104,7 @@ margin-bottom: 30px;
 }
 .companyarea h2 {
 z-index:3;
+color:gray;
 }
 
 .corporate {
@@ -163,6 +164,7 @@ z-index:3;
   position: relative;
   left: 535px;
   top: 200px;
+  background:white;
 }
 
 .service-item2 {
@@ -179,6 +181,7 @@ z-index:3;
   position: relative;
   left: 360px;
   bottom: 330px;
+  background:white;
 }
 .title,
 .text {
