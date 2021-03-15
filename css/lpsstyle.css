@@ -25,7 +25,7 @@
 
 .header-nav ul {/*ここで横並び*/
   display: flex;
-  height: 70px;
+  height: 90px;
 }
 
 .header-nav a
@@ -207,12 +207,11 @@ color:gray;
 }
 
 .mission img {
-  position: relative;
-  display: flex;
+  position: absolute;
   width: 400px;
   left: 650px;
   bottom: 110px;
-  z-index: auto;
+  z-index: 2;
 }
 
 
@@ -222,7 +221,7 @@ color:gray;
   z-index:3;
 }
 .imgg {
-  display: flex;
+  position: relative;
   width: 40%;
   margin-left: auto;
   bottom: 140px;
