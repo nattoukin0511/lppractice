@@ -149,8 +149,10 @@ color:gray;
 }
 
 .service-item1 {
+  z-index:10;
   margin-bottom: 70px;
   align-items: center;
+  position:relative;
 }
 
 .card1 {
@@ -161,14 +163,18 @@ color:gray;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
   transition: 0.3s;
-  position: relative;
+  position: absolute;
   left: 535px;
   top: 200px;
   background:white;
+  z-index:30;
 }
+
 
 .service-item2 {
   margin-bottom: 40px;
+  z-index:10;
+  position:relative;
 }
 
 .card2 {
@@ -181,7 +187,9 @@ color:gray;
   position: relative;
   left: 360px;
   bottom: 330px;
+  position:absolute;
   background:white;
+  z-index:20;
 }
 .title,
 .text {
