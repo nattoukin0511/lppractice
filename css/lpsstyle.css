@@ -186,7 +186,7 @@ color:gray;
   transition: 0.3s;
   position: relative;
   left: 360px;
-  bottom: 330px;
+  top: 100px;
   position:absolute;
   background:white;
   z-index:20;
@@ -232,7 +232,6 @@ color:gray;
   position: relative;
   width: 40%;
   margin-left: auto;
-  bottom: 140px;
   right: 10px;
 }
 
