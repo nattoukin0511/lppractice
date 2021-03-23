@@ -298,8 +298,9 @@ color:gray;
 label {
   font-size: 34px;
   font-weight: bold;
-  float: left;
+  text-align:left;
   color: #ccc;
+  bottom:50px;
 }
 
 .contactarea {
