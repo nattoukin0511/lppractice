@@ -165,7 +165,7 @@ color:gray;
   transition: 0.3s;
   position: absolute;
   left: 535px;
-  top: 200px;
+  top: 600px;
   background:white;
   z-index:30;
 }
@@ -184,7 +184,6 @@ color:gray;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
   transition: 0.3s;
-  position: relative;
   left: 360px;
   top: 100px;
   position:absolute;
