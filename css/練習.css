@@ -30,11 +30,15 @@
   margin-bottom: 80px;
 }
 
+.service {
+  background: #c0c0c0;
+}
+
 .servicep {
   text-align: center;
   font-size: 28px;
   font-weight: 50;
-  color: gray;
+  color: #808080;
 }
 
 .mission {
@@ -55,6 +59,18 @@
   width: 45%;
   margin-right: 20%;
 }
+
+.card {
+  width: 350px;
+  padding: 20px 15px 20px 15px;
+  border: 1px solid #e9eaea;
+  background: #fff;
+}
+
+.button {
+  padding: 7px 10px;
+}
+
 
 .cr {
   margin-top: 80px;
