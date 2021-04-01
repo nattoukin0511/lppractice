@@ -7,6 +7,12 @@
   margin-bottom: 80px;
 }
 
+.flex-between {
+  display:flex;
+  jutify-content:space-between;
+  
+}
+
 .header-nav ul {
   display: flex;
   justify-content: space-between;
@@ -14,6 +20,10 @@
 .header-nav li {
   list-style: none;
   color: #fff;
+}
+
+.header-nav li a{
+  text-decoration:none;
 }
 
 .eyecatch {
@@ -93,6 +103,14 @@
   line-height: 20px;
   margin-top: 80px;
 }
+
+.flex-between2 {
+  display:flex;
+  jutify-content:space-between;
+  
+}
+
+
 .footer-nav ul {
   display: flex;
   justify-content: space-between;
