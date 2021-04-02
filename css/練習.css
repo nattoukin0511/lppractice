@@ -54,10 +54,12 @@
 .service-contents1 img {
   width: 45%;
   margin-left: 70%;
+  position:relative;
 }
 .service-contents2 img {
   width: 45%;
   margin-right: 20%;
+  position:relative;
 }
 
 .card {
@@ -65,6 +67,7 @@
   padding: 20px 15px 20px 15px;
   border: 1px solid #e9eaea;
   background: #fff;
+  position:absolute;
 }
 
 .button {
