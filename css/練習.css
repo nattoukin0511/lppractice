@@ -9,7 +9,7 @@
 
 .flex-between {
   display:flex;
-  jutify-content:space-between;
+  justify-content:space-between;
   
 }
 
