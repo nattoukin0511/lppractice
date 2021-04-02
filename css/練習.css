@@ -138,6 +138,11 @@
   list-style: none;
   color: #fff;
 }
+
+.footer-nav a{
+  text-decoration:none;
+}
+
 small {
   color: #fff;
 }
