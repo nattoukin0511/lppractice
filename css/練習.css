@@ -62,16 +62,27 @@
   position:relative;
 }
 
-.card {
+.card1 {
   width: 350px;
   padding: 20px 15px 20px 15px;
   border: 1px solid #e9eaea;
   background: #fff;
   position:absolute;
+  border:solid 10px #F0C060;　
+}
+
+.card1 {
+  width: 350px;
+  padding: 20px 15px 20px 15px;
+  border: 1px solid #e9eaea;
+  background: #fff;
+  position:absolute;
+  border:solid 10px #F0C060;　
 }
 
 .button {
   padding: 7px 10px;
+  border:solid 10px #F0C060;　
 }
 
 
@@ -85,6 +96,7 @@
   justify-content: space-between;
   color: #fff;
   text-align: center;
+  line-height:70px;
 }
 .companyimg {
   width: 45%;
