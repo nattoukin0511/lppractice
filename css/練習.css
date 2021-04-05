@@ -10,7 +10,7 @@
 .flex-between {
   display:flex;
   justify-content:space-between;
-  width:450px;
+  width:100%;
   
 }
 
@@ -139,7 +139,7 @@
 .flex-between2 {
   display:flex;
   jutify-content:space-between;
-  width:450px;
+  width:100%;
   
 }
 
