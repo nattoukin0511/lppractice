@@ -10,6 +10,7 @@
 .flex-between {
   display:flex;
   justify-content:space-between;
+  align-items:center;
   width:100%;
   
 }
@@ -160,6 +161,7 @@ color: #fff;
 .flex-between2 {
   display:flex;
   jutify-content:space-between;
+  align-items:center;
   width:100%;
   
 }
