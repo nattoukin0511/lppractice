@@ -8,10 +8,11 @@
   width: 100%;
 }
 
-.flexbetween {
+.flex-between1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items:center;
 }
 
 .header-logo {
@@ -150,10 +151,11 @@
   text-align: center;
 }
 
-.flexbetween2 {
+.flex-between2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items:center;
 }
 
 .footer-logo {
