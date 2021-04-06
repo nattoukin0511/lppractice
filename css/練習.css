@@ -108,13 +108,12 @@ font-size: 34px;
   padding: 50px 40px;
 }
 .cr p {
-  display: flex;
-  justify-content: space-between;
   color: #fff;
   text-align: center;
   line-height:70px;
 }
-.companyimg {
+
+.company {
   width: 45%;
   padding: 60px 10px;
   background: url(../img/company.jpeg) no-repeat;
