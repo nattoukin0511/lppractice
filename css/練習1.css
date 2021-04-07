@@ -109,9 +109,7 @@
   margin-bottom: 80px;
   padding: 50px 40px;
 }
-.cr p {
-  display: flex;
-  justify-content: space-between;
+.cr p 
   color: #fff;
   text-align: center;
 }
