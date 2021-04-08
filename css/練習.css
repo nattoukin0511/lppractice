@@ -104,6 +104,8 @@ font-size: 34px;
 
 
 .cr {
+  display:flex;
+  justify-content:space-between;
   margin-top: 80px;
   margin-bottom: 80px;
   padding: 50px 40px;
