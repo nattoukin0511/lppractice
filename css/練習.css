@@ -99,6 +99,7 @@ font-size: 34px;
 .button {
   padding: 7px 10px;
   border:solid 10px #F0C060;　
+  text-align:center;
 }
 
 
@@ -139,6 +140,7 @@ font-size: 34px;
   display: flex;
   justify-content: space-between;
   background: url(../img/contact-bg.jpg) no-repeat;
+  text-align:center;
 }
 
 .footer {
@@ -154,7 +156,7 @@ font-size: 34px;
 .footer-logo {
 font-size: 16px;
 color: #fff;
-}	margin-left: 30px;
+margin-left: 30px;
 }
 
 .flex-between2 {
