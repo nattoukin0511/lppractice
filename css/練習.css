@@ -103,20 +103,20 @@ font-size: 34px;
 }
 
 
-.cr {
+.company {
   display:flex;
   justify-content:space-between;
   margin-top: 80px;
   margin-bottom: 80px;
   padding: 50px 40px;
 }
-.cr p {
+.company p {
   color: #fff;
   text-align: center;
   line-height:70px;
 }
 
-.company {
+.companyimg {
   width: 45%;
   padding: 60px 10px;
   background: url(../img/company.jpeg) no-repeat;
