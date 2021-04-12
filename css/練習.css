@@ -136,6 +136,18 @@ font-size: 34px;
   background: #000;
 }
 
+.faq-label {
+  color:#FFF;
+  font-size:34px;
+  fon-weight:bold;
+}
+
+.faqp {
+  color:#FFF;
+  font-size:16px;
+  
+}
+
 .contactarea {
   width: 100%;
   height:auto;
