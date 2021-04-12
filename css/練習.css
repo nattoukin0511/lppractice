@@ -138,11 +138,9 @@ font-size: 34px;
 
 .contactarea {
   width: 100%;
-  height: 40%;
-  display: flex;
-  justify-content: space-between;
+  height:auto;
   background: url(../img/contact-bg.jpg) no-repeat;
-  text-align:center;
+  padding:20px;
 }
 .p1 {
   margin-bottom:20px;
