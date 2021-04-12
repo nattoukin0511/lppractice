@@ -174,8 +174,16 @@ font-size: 34px;
 .p3 {
   margin-bottom:20px;
   font-size:10px;
+  color:#fff;
 }
-
+.contact-button {
+  padding: 20px 40px;
+  border: groove #fff 5px;
+  width: 120px;
+}
+.cbtp {
+  color: #fff;
+}
 
 .footer {
   display: flex;
