@@ -129,6 +129,8 @@ font-size: 34px;
 }
 
 .faq {
+  display:flex;
+  
   margin-top: 80px;
   margin-bottom: 80px;
   background: url(../img/);
@@ -136,10 +138,8 @@ font-size: 34px;
   background: #000;
 }
 
-.faq-label {
-  color:#FFF;
-  font-size:34px;
-  fon-weight:bold;
+.faq:before {
+  text-align:left;
 }
 
 .faqp {
