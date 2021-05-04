@@ -225,3 +225,13 @@ margin-left: 30px;
 small {
   color: #fff;
 }
+
+@media -screen and(max-width:768px) {
+  body {
+    margin-left:10%;
+}
+  @media -screen and(max-width:480px) {
+  body {
+    margin-left:10%;
+}
+
